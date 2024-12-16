@@ -23,7 +23,7 @@ def generate_sequence(length):
     return sequence
 
 # Streamlit app
-st.title("Dot Drill Sequence Generator")
+st.title("9-Square Sequence Generator")
 
 # Input: Number of steps in the sequence
 sequence_length = st.selectbox("Select the number of numbers in the sequence:", [4, 5, 6, 7, 8, 9, 10])
